@@ -1,0 +1,179 @@
+$green_sea: #1ABC9C;
+$emeraud: #2ECC71;
+$black: #434242;
+$red: #E74C3C;
+$light_grey: #ECF0F1;
+$dark_grey: #95A5A6;
+$dark_blue: #34495E;
+$blue: #2091DC;
+
+
+header {
+    background-image: url(../assets/img/Group.png);
+
+    /* Position and center the image to scale nicely on all screens */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+
+    height: 48.25rem;
+    width: auto;
+
+    .header-content {
+        margin-top: 10%;
+        margin-left: 5%;
+        color: $dark_blue;
+    }
+
+    .header-button {
+        background-color: $blue;
+        border-radius: 27.5px;
+        border: none;
+        color: white;
+        padding: 15px 32px;
+        text-align: center;
+        text-decoration: none;
+        display: inline-block;
+        font-size: 16px;
+        margin-left: 5%;
+        margin-top: 1%;
+        text-transform: uppercase;
+    }
+
+    .explore {
+        position: relative;
+
+        .button-explore {
+            background-color: transparent;
+            border-radius: 27.5px;
+            border: 1px solid white;
+            color: white;
+            padding: 15px 32px;
+            text-align: center;
+            text-decoration: none;
+            display: inline-block;
+            font-size: 16px;
+            margin-left: 5%;
+            margin-top: 1%;
+            text-transform: uppercase;
+            position: absolute;
+            right: 0;
+            bottom: 0;
+        }
+    }
+}
+
+.login {
+    float: right;
+    margin: 2%;
+    .login-button {
+        background-color: $light_grey;
+        border-radius: 27.5px;
+        border: 1px $dark_blue solid;
+        color: $dark_blue;
+        padding: 15px 45px;
+        text-align: center;
+        text-decoration: none;
+        display: inline-block;
+        font-size: 16px;
+        margin-left: 5%;
+        margin-top: 1%;
+        text-transform: uppercase;
+    }
+}
+
+.bg-bleu {
+    background-color: $blue;
+}
+
+.bg-blanc {
+    background-color: white;
+}
+
+.voici-wedev {
+
+    p {
+        color: white;
+    }
+
+    .voici {
+        margin: 3%;
+        color: white;
+        border: white solid 4px;
+        padding: 0.3%;
+        width: 18.813rem;
+        vertical-align: baseline;
+
+        .voici-text {
+            font-size: 25px;
+        }
+    }
+
+    .title-app {
+        font-size: 52px;
+        text-transform: uppercase;
+        text-align: center;
+        color: white;
+    }
+
+    .paragraph-app {
+        margin-top: 2%;
+        color: white;
+        text-align: center;
+        width: 56.563rem;
+        height: 8.25rem;
+
+        .paragraph-app-text {
+            font-size: 18px;
+        }
+    }
+
+    //.icons-block {
+        
+    //}
+}
+
+.section2{
+
+    margin-top: 5%;
+    margin-bottom: 5%;
+
+    .ccm {
+        text-transform: uppercase;
+        color: $green_sea;
+    }
+
+    .green-round {
+        border-radius: 50px;
+        background: $green_sea;
+        padding: 20px;
+        width: 50px;
+        height: 50px;
+        color: white;
+    }
+
+}
+
+.offre-lancement {
+    background-image: url(../assets/img/Bitmap.png);
+    /* Position and center the image to scale nicely on all screens */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+
+    height: 67.875rem;
+    width: auto;
+}
+
+footer {
+    background-color: $dark_blue;
+    
+    p {
+        text-transform: uppercase;
+        color: white;
+        display: block;
+        align-items: center;
+    }
+}

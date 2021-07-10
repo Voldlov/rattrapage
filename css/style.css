@@ -1,0 +1,147 @@
+header {
+  background-image: url(../assets/img/Group.png);
+  /* Position and center the image to scale nicely on all screens */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+  height: 48.25rem;
+  width: auto;
+}
+header .header-content {
+  margin-top: 10%;
+  margin-left: 5%;
+  color: #34495E;
+}
+header .header-button {
+  background-color: #2091DC;
+  border-radius: 27.5px;
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin-left: 5%;
+  margin-top: 1%;
+  text-transform: uppercase;
+}
+header .explore {
+  position: relative;
+}
+header .explore .button-explore {
+  background-color: transparent;
+  border-radius: 27.5px;
+  border: 1px solid white;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin-left: 5%;
+  margin-top: 1%;
+  text-transform: uppercase;
+  position: absolute;
+  right: 0;
+  bottom: 0;
+}
+
+.login {
+  float: right;
+  margin: 2%;
+}
+.login .login-button {
+  background-color: #ECF0F1;
+  border-radius: 27.5px;
+  border: 1px #34495E solid;
+  color: #34495E;
+  padding: 15px 45px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin-left: 5%;
+  margin-top: 1%;
+  text-transform: uppercase;
+}
+
+.bg-bleu {
+  background-color: #2091DC;
+}
+
+.bg-blanc {
+  background-color: white;
+}
+
+.voici-wedev p {
+  color: white;
+}
+.voici-wedev .voici {
+  margin: 3%;
+  color: white;
+  border: white solid 4px;
+  padding: 0.3%;
+  width: 18.813rem;
+  vertical-align: baseline;
+}
+.voici-wedev .voici .voici-text {
+  font-size: 25px;
+}
+.voici-wedev .title-app {
+  font-size: 52px;
+  text-transform: uppercase;
+  text-align: center;
+  color: white;
+}
+.voici-wedev .paragraph-app {
+  margin-top: 2%;
+  color: white;
+  text-align: center;
+  width: 56.563rem;
+  height: 8.25rem;
+}
+.voici-wedev .paragraph-app .paragraph-app-text {
+  font-size: 18px;
+}
+
+.section2 {
+  margin-top: 5%;
+  margin-bottom: 5%;
+}
+.section2 .ccm {
+  text-transform: uppercase;
+  color: #1ABC9C;
+}
+.section2 .green-round {
+  border-radius: 50px;
+  background: #1ABC9C;
+  padding: 20px;
+  width: 50px;
+  height: 50px;
+  color: white;
+}
+
+.offre-lancement {
+  background-image: url(../assets/img/Bitmap.png);
+  /* Position and center the image to scale nicely on all screens */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+  height: 67.875rem;
+  width: auto;
+}
+
+footer {
+  background-color: #34495E;
+}
+footer p {
+  text-transform: uppercase;
+  color: white;
+  display: block;
+  align-items: center;
+}
+
+/*# sourceMappingURL=style.css.map */

@@ -1,118 +1,111 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="fr">
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="author" content="Lucas Gaio Dos Santos">
+    <meta name="description" content="Où que vous soyez, restez Freelance !">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>wedev</title>
-    
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <title>Wedev</title>
+
 </head>
 <body>
     <header>
-        <section>
-            <div>
-                <img src="logo.png" alt="logo">
-                <button class="button__header">LOGIN</button>
+        <nav>
+            <div class="logo">
+                <img src="assets/img/Group 10.png" class="img-fluid" alt="logo" />
             </div>
-            <div>
-                <h2>Où que vous soyez <br> Restez Freelance</h2>
-                <button class="button__header blue">INSCRIVEZ-VOUS</button>
+            <div class="login">
+                <button class="login-button">Login</button>
             </div>
-            <div>
-                <ul>
-                    <li></li>
-                    <li></li>
-                    <li></li>
-                </ul>
-                <button class="button__header">EXPLORE</button>
-            </div>
-        </section>
+        </nav>
+        <div class="header-content">
+            <h1>Où que vous soyez <br>Restez <b>Freelance</b></h1>
+        </div>
+        <div>
+            <button class="header-button">Inscrivez-vous</button>
+        </div>
+        <div class="explore">
+            <button class="button-explore">Explore</button>
+        </div>
     </header>
+
     <main>
-        <section class="blue">
-            <button>Voici WeDev</button>
-            <h2>APPLICATION DE GESTION DE PROJET POUR LES DEV</h2>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Delectus laborum nemo cum enim. Nisi non quis reiciendis dignissimos qui ratione deserunt numquam! Voluptatibus mollitia consequuntur velit tenetur quibusdam eum iusto?</p>
-            <ul>
-                <li>
-                    <ul>
-                        <li><img src="" alt=""></li>
-                        <li><p></p></li>
-                    </ul>
-                </li>
-                <li>
-                    <ul>
-                        <li><img src="" alt=""></li>
-                        <li><p></p></li>
-                    </ul>
-                </li>
-                <li>
-                    <ul>
-                        <li><img src="" alt=""></li>
-                        <li><p></p></li>
-                    </ul>
-                </li>
-                <li>
-                    <ul>
-                        <li><img src="" alt=""></li>
-                        <li><p></p></li>
-                    </ul>
-                </li>
-            </ul>
-        </section>
-        <section>
-            <div>
-                <h4>comment ça marche ?</h4>
-                <h2>Tous vos outils de dev réuni sur une seule application</h2>
-                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Molestiae architecto repellendus temporibus sapiente eum, ipsa quisquam quam, accusamus nesciunt animi consequatur sequi ipsum ratione laborum, vero inventore nulla sint iusto!</p>
-            </div>
-            <div>
-                <ul>
-                    <li>
-                        <ul>
-                            <li><h5>1</h5></li>
-                            <li><h3>Créer vos projets</h3></li>
-                            <li><p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Dolorem delectus minima cupiditate et architecto, rerum reprehenderit blanditiis veniam labore inventore quas eaque cum voluptate earum aut! Nihil, adipisci quae? Exercitationem!</p></li>
-                        </ul>
-                    </li>
-                    <li>
-                        <ul>
-                            <li><h5>2</h5></li>
-                            <li><h3>Ajouter vos sprints</h3></li>
-                            <li><p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Dolorem delectus minima cupiditate et architecto, rerum reprehenderit blanditiis veniam labore inventore quas eaque cum voluptate earum aut! Nihil, adipisci quae? Exercitationem!</p></li>
-                        </ul>
-                    </li>
-                    <li>
-                        <ul>
-                            <li><h5>3</h5></li>
-                            <li><h3>Affecter vos tâches</h3></li>
-                            <li><p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Dolorem delectus minima cupiditate et architecto, rerum reprehenderit blanditiis veniam labore inventore quas eaque cum voluptate earum aut! Nihil, adipisci quae? Exercitationem!</p></li>
-                        </ul>
-                    </li>
-                </ul>
+        <section class="bg-bleu">
+            <div class="voici-wedev row justify-content-center">
+                <div class="voici text-center">
+                    <h2 class="voici-text">Voici WeDev</h2>
+                </div>
+                <div class="text-center">
+                    <h3 class="title-app">Application de gestion de projet pour les dev</h3>
+                </div>
+                <div class="paragraph-app">
+                    <p class="paragraph-app-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+                </div>
+                <div class="icons-block">
+                    <div class="col s12 m3 align-items-center">
+                        <img src="assets/img/icon1.png" alt="reporting">
+                        <p>Vos reporting centralisés</p>
+                    </div>
+                    <div class="col s12 m3">
+                        <img src="assets/img/icon2.png" alt="suivi">
+                        <p>Le suivi de vos activités en temps réel</p>
+                    </div>
+                    <div class="col s12 m3">
+                        <img src="assets/img/icon3.png" alt="gain">
+                        <p>Un gain de temps pour le pilotage</p>
+                    </div>
+                    <div class="col s12 m3">
+                        <img src="assets/img/icon4.png" alt="utilitaire">
+                        <p>Des utilitaires pour votre dev</p>
+                    </div>
+                </div>
             </div>
         </section>
-        <section>
-            <div>
-                <h4>OFFRE DE LANCEMENT</h4>
-                <p>inscrivez-vous et recevez prochianement un accès prenium à l'application WeAreData</p>
-                <button>JE M'INSCRIS</button>
+
+        <section class="section2 container bg-blanc">
+            <div class="row">
+                <div class="col s12 m6">
+                    <p class="ccm"><b>comment ça marche ?</b></p>
+                    <h2>Tous vos outils de dev réuni sur une seule application</h2>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                </div>
+                <div class="col s12 m6">
+                    <div class="enumerate-element">
+                        <div class="green-round"><b>1</b></div>
+                        <h3>Créer vos projets</h3>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                    </div>
+                    <div class="enumerate-element">
+                        <div class="green-round"><b>2</b></div>
+                        <h3>Ajouter vos sprints</h3>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                    </div>
+                    <div class="enumerate-element">
+                        <div class="green-round"><b>3</b></div>
+                        <h3>Affecter vos tâches</h3>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="offre-lancement">
+            <div class="offre-card">
+                <h2>Offre de lancement</h2>
+                <p>inscrivez-vous et recevez prochainement un accès premium à l’application WeAreData</p>
+                <button>Je m'inscrit</button>
             </div>
         </section>
     </main>
     <footer>
-        <ul>
-            <li><img src="logo_footer.png" alt="logo"></li>
-            <li><p>Copyright 2020</p></li>
-            <li>
-                <ul>
-                    <li></li>
-                    <li></li>
-                    <li></li>
-                </ul>
-            </li>
-        </ul>
+        <img src="assets/img/Group 10.png" alt="logo">
+        <p class="text-center">copyright 2020</p>
     </footer>
+    <script src="https://code.jquery.com/jquery-3.6.0.slim.min.js" integrity="sha256-u7e5khyithlIdTpu22PHhENmPcRdFiHRjhAuHcs05RI=" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+    <script src="js/script.js"></script>
 </body>
 </html>
