@@ -105,6 +105,11 @@ header .explore .button-explore {
 .voici-wedev .paragraph-app .paragraph-app-text {
   font-size: 18px;
 }
+.voici-wedev .icons-block {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
 
 .section2 {
   margin-top: 5%;
@@ -133,9 +138,53 @@ header .explore .button-explore {
   height: 67.875rem;
   width: auto;
 }
+.offre-lancement h2 {
+  margin-top: 10%;
+  text-transform: uppercase;
+  color: #2ECC71;
+  text-align: center;
+}
+.offre-lancement p {
+  margin-top: 3%;
+  text-align: center;
+}
+.offre-lancement button {
+  background-color: #2ECC71;
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin-left: 5%;
+  margin-top: 1%;
+  text-transform: uppercase;
+}
+.offre-lancement .offre-card {
+  position: absolute;
+  margin-top: 15%;
+  margin-bottom: 50%;
+  margin-right: 50%;
+  margin-left: 25%;
+  background-color: white;
+  width: 1082px;
+  height: 354px;
+  box-shadow: 5px;
+}
+.offre-lancement .incription-button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
 
 footer {
   background-color: #34495E;
+  padding-bottom: 2%;
+  vertical-align: baseline;
+}
+footer img {
+  display: block;
 }
 footer p {
   text-transform: uppercase;

@@ -129,9 +129,11 @@ header {
         }
     }
 
-    //.icons-block {
-        
-    //}
+    .icons-block {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
 }
 
 .section2{
@@ -165,11 +167,62 @@ header {
 
     height: 67.875rem;
     width: auto;
+
+    h2 {
+        margin-top: 10%;
+        text-transform: uppercase;
+        color: $emeraud;
+        text-align: center;
+    }
+
+    p {
+        margin-top: 3%;
+        text-align: center;
+    }
+
+    button {
+        background-color: $emeraud;
+        border: none;
+        color: white;
+        padding: 15px 32px;
+        text-align: center;
+        text-decoration: none;
+        display: inline-block;
+        font-size: 16px;
+        margin-left: 5%;
+        margin-top: 1%;
+        text-transform: uppercase;
+    }
+
+    .offre-card {
+        position: absolute;
+        margin-top: 15%;
+        margin-bottom: 50%;
+        margin-right: 50%;
+        margin-left: 25%;
+        background-color: white;
+        width: 1082px;
+        height: 354px;
+        box-shadow: 5px;
+    }
+
+    .incription-button {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
 }
 
 footer {
     background-color: $dark_blue;
-    
+    padding-bottom: 2%;
+    vertical-align: baseline;
+
+    img {
+        display: block;
+    }
+
     p {
         text-transform: uppercase;
         color: white;
